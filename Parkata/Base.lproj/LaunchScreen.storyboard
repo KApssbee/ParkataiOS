@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="19455" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="01J-lp-oVM">
+    <device id="retina5_5" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="19454"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="Lato-Regular.ttf">
+            <string>Lato-Regular</string>
+        </array>
+    </customFonts>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="EHf-IW-A2E">
+            <objects>
+                <viewController id="01J-lp-oVM" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Ze5-6b-2t3">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Rectangle" translatesAutoresizingMaskIntoConstraints="NO" id="iv6-r8-Ujv">
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Parkata Logo Final" translatesAutoresizingMaskIntoConstraints="NO" id="H1j-kT-mQe">
+                                <rect key="frame" x="20" y="202" width="374" height="332"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Copyright © Parkata 2021" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Xlk-yT-zLp">
+                                <rect key="frame" x="132.33333333333337" y="660.66666666666663" width="149.66666666666663" height="15.333333333333371"/>
+                                <fontDescription key="fontDescription" name="Lato-Regular" family="Lato" pointSize="13"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="H1j-kT-mQe" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="1qN-D5-hpk"/>
+                            <constraint firstAttribute="trailing" secondItem="iv6-r8-Ujv" secondAttribute="trailing" id="3eK-2G-5nh"/>
+                            <constraint firstItem="Xlk-yT-zLp" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="6D5-oW-wbw"/>
+                            <constraint firstAttribute="bottom" secondItem="iv6-r8-Ujv" secondAttribute="bottom" id="VGw-99-HZs"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="H1j-kT-mQe" secondAttribute="trailing" constant="20" id="buO-ri-QvA"/>
+                            <constraint firstItem="iv6-r8-Ujv" firstAttribute="top" secondItem="Ze5-6b-2t3" secondAttribute="top" id="dli-f9-LQD"/>
+                            <constraint firstItem="H1j-kT-mQe" firstAttribute="centerY" secondItem="Ze5-6b-2t3" secondAttribute="centerY" id="h29-py-luY"/>
+                            <constraint firstItem="iv6-r8-Ujv" firstAttribute="leading" secondItem="Ze5-6b-2t3" secondAttribute="leading" id="neF-VJ-lwE"/>
+                            <constraint firstAttribute="bottom" secondItem="Xlk-yT-zLp" secondAttribute="bottom" constant="60" id="p6N-PE-YWW"/>
+                            <constraint firstItem="H1j-kT-mQe" firstAttribute="height" secondItem="Ze5-6b-2t3" secondAttribute="height" multiplier="0.45" constant="1" id="ukx-FD-hrk"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="iYj-Kq-Ea1" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="53" y="375"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="Parkata Logo Final" width="360" height="360"/>
+        <image name="Rectangle" width="435" height="968"/>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>
